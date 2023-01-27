@@ -11,7 +11,7 @@
 }
 
 #searchInput {
-    background-image: url('/css/searchicon.png'); /* Add a search icon to input, not currently implemented */
+    background-image: url('/img/searchicon.png'); /* Add a search icon to input, not currently implemented */
     background-position: 10px 12px; /* Position the search icon, experiment with positions later */
     background-repeat: no-repeat; /* Do not repeat the icon image through the whole input bar */
     width: 25%;  /* Width of search input box */
