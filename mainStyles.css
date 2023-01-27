@@ -1,3 +1,15 @@
+#mainTxt {
+    font-size: 32px;
+    padding: 12px;
+    text-align: center;
+
+}
+
+#search {
+    text-align: center;
+
+}
+
 #searchInput {
     background-image: url('/css/searchicon.png'); /* Add a search icon to input, not currently implemented */
     background-position: 10px 12px; /* Position the search icon, experiment with positions later */
@@ -14,20 +26,21 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+    /* https://stackoverflow.com/questions/1708054/how-can-i-center-ul-li-into-a-div */
 }
   
 #searchList li a {
     border: 1px solid #ddd; /* Add a border to all links */
-    display: block; /* Make it into a block element to fill the whole list */  
+    display: inline-block; /* Make it into a block element to fill the whole list */  
     padding: 12px; /* Add more padding all around */
     margin-top: -1px; /* Prevent double borders */
     background-color: #f6f6f6; /* Grey background color */
     text-decoration: none; /* Remove default link text underline */
     font-size: 18px; /* Increase the font-size */
     color: black; /* Add a black text color */
-    width: 25%; /* Set width */
+    width: 40%; /* Set width */
 }
   
-#myUL li a:hover:not(.header) {
+#searchList li a:hover:not(.header) {
     background-color: #eee; /* Add a hover effect to all links, except for headers */
 }
