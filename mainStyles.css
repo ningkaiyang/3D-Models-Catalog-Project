@@ -17,6 +17,7 @@
     padding: 12px 20px 12px 40px; /* Padding for top-right-bottom-left */
     border: 1px solid #ddd; /* Line border */
     margin-bottom: 12px; /* Space below the input box */
+    margin-top: 15px;  /* Likewise, but for above */
 }
 #searchList {
     /* Remove default list styling like the dots */
@@ -58,4 +59,11 @@
 }
 #searchB:hover{
     background-color: #119ecd;
+}
+#introB{
+    background-color: #0d8059;
+    color: white;
+}
+#introB:hover{
+    background-color: #24a57a;
 }
