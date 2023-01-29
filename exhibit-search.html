@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>3D Models Main Page</title>
-        <meta name="description" content="Catalog of 3D Models">
-        <meta name="author" content="Nickolas Yang">
-        <link rel="stylesheet" href="mainStyles.css">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hildebrand Anatomical Collection</title>
+    <meta name="description" content="Catalog of 3D Models">
+    <meta name="author" content="Nickolas Yang">
+    <link rel="stylesheet" href="mainStyles.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0/css/bootstrap.css">
+    <script src="bootstrap-5.3.0/js/bootstrap.js"></script>
+    <link href="https://pagecdn.io/lib/easyfonts/fonts.css" rel="stylesheet">
+</head>
     <body>
         <h1 id="mainTxt">Hildebrand Anatomical Collection</h1>
-        <div id="navButtons">
-            <button onclick="window.location.href='/main.html'" id="introB">Introduction</button>
-            <button id="BBTypeB">Browse By Type (temp)</button>
-            <button id="BBTaxonomyB">Browse By Taxonomy (temp)</button>
-            <button onclick="window.location.href='/exhibit-search.html'" id="searchB">Search</button>
-        </div>
+    <ul id="navStyles" class="nav nav-pills justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="main.html">Introduction</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Browse By Type (temp)</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Browse By Taxonomy (temp)</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="exhibit-search.html">Search</a>
+        </li>
+      </ul>
 
         <!-- Code guided by https://www.w3schools.com/howto/howto_js_filter_lists.asp -->
         <center>

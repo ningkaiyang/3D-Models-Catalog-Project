@@ -13,27 +13,28 @@
 </head>
 
 <body>
+    <style>
+    #navButtons {
+        text-align: center;
+    }
+    #navButtons button{
+        padding: 6px 10px;
+        margin: 3px 3px 3px 3px;
+        max-width: 25%;
+        font-size: 1.5vw;
+        font-family: 'Lato', sans-serif;
+        font-weight: normal;
+        line-height: 1.3vw;
+    }</style>
     <h1 id="mainTxt">Hildebrand Anatomical Collection</h1>
-    <ul id="navStyles" class="nav nav-pills justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" id="introB" href="main.html">Introduction</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Browse By Type (temp)</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Browse By Taxonomy (temp)</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="exhibit-search.html">Search</a>
-        </li>
-      </ul>
-      <br><br><br><br><br>
+    <div id="navButtons">
+        <button onclick="window.location.href='/main.html'" id="introB" class="btn btn-success">Introduction</button>
+        <button id="BBTypeB" class="btn btn-secondary">Browse By Type (temp)</button>
+        <button id="BBTaxonomyB" class="btn btn-secondary">Browse By Taxonomy (temp)</button>
+        <button onclick="window.location.href='/exhibit-search.html'" id="searchB" class="btn btn-primary">Search</button>
+    </div>
     <p>Buttons and font to be made prettier in a bit ;-; learning to mimic style of normal MVZ site.</p>
     <br><br><br><br><br>
-    <div class="container" id="milton">
-        <img src="img/MiltonHildebrand.jpg" class="img-fluid">
-    </div>
     <div id="mbText">
     <p>This collection of unusual specimen preparations, including freeze-dried displays of muscles, feet, tongues, and
         other anatomical parts, was created by Milton Hildebrand, Professor Emeritus, University of California at Davis,

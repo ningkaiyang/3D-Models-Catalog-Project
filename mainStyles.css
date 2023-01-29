@@ -40,34 +40,6 @@
 #searchList li a:hover:not(.header) {
     background-color: #eee; /* Add a hover effect to all links, except for headers */
 }
-#navButtons {
-    text-align: center;
-}
-#navButtons button{
-    border: 2px solid rgb(0, 0, 0);
-    padding: 6px 10px;
-    margin: 3px 3px 3px 3px;
-    border-radius: 20px;
-    max-width: 25%;
-    font-size: 1.5vw;
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
-    line-height: 1.3vw;
-}
-#searchB{
-    background-color: #008CBA;
-    color: white;
-}
-#searchB:hover{
-    background-color: #119ecd;
-}
-#introB{
-    background-color: #0d8059;
-    color: white;
-}
-#introB:hover{
-    background-color: #24a57a;
-}
 #mbText{
     text-align: center;
     margin: 0 auto;
@@ -77,4 +49,19 @@
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     color: #423b3b;
+}
+.nav-pills li a.active{
+    background-color: #e4c287 !important;
+    color: black !important;
+}
+.nav-pills li a:not(.disabled){
+    background-color: rgb(244, 225, 189);
+    color: black;
+}
+.nav-pills li a:hover{
+    background-color: rgb(246, 240, 228);
+    color: rgb(87, 87, 87);
+}
+#milton{
+    max-width: 250px;
 }
