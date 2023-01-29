@@ -53,10 +53,12 @@
 .nav-pills li a.active{
     background-color: #e4c287 !important;
     color: black !important;
+    border-radius: 5px;
 }
 .nav-pills li a:not(.disabled){
     background-color: rgb(244, 225, 189);
     color: black;
+    border-radius: 5px;
 }
 .nav-pills li a:hover{
     background-color: rgb(246, 240, 228);
